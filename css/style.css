@@ -1,0 +1,116 @@
+body{
+	font-family: Arial, Sant-Serif;
+	font-size: 100%;
+	background-color: #5C415D
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	padding: 50px 0;
+	background-color: #694966;
+}
+h1,h2{
+	color: #C89933;
+	text-align: center;
+}
+nav{
+	background-color: #74526C;
+	border-color: #DBD053;
+	border-style: solid;
+	min-height: 64px;
+}
+nav li{
+	float: left;
+	width: 100px;
+}
+nav a{
+	display: block;
+	color: #DBD053;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+nav li a:hover{
+	color: #74526C;
+	background-color: #C89933;
+}
+p{
+	font-size: 16px;
+	line-height: 1.3;
+	margin-top: 0.1em;
+	margin-bottom: 0;
+	color: #C89933;
+}
+footer{
+	background-color: #C89933;
+	color: #C89933;
+	padding: 20px 0;
+	margin-top: 30px;
+}
+.img{
+	width: 200px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.img-container li{
+	display: inline-block;
+	width: 32%;
+	padding: 10px;
+}
+.img-container{
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+}
+.img-container img{
+	width: 80%;
+	direction: inline-block;
+	transition: 25s;
+}
+.img.container ul li{
+	list-style-type: none;
+}
+.inline-img img{
+	width: 250px;
+	display: inline-block;
+	border-radius: 15px;
+	text-align: center;
+	transform: scale(0.95);
+	transition: 0.3s;
+	max-width: 35%;
+}
+.inline-img img:hover{
+	transform: scale(1);
+}
+.multumedia{
+	overflow: auto;
+}
+.multimedia-video{
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 25%
+	box-sizing: border-box;
+}
+/*Практична робота 10*/
+form{
+	padding: 15px 0;
+	float: right;
+}
+.form_comment{
+	padding: 15px 0;
+	float: none;
+}
